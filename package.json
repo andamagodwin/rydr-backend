@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-getting-started",
+  "name": "rydr-backend",
   "private": true,
-  "description": "A sample Node.js app using Express",
+  "description": "rydr-backend-code",
   "engines": {
     "node": "20.x || 22.x || 24.x"
   },
@@ -16,10 +16,6 @@
   },
   "devDependencies": {
     "jest": "^30.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/nodejs-getting-started"
   },
   "keywords": [
     "node",
