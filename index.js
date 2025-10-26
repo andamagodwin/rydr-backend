@@ -1,4 +1,9 @@
 const express = require('express')
+const ridesRouter = require('./routes/rideRoutes');
+
+
+
+
 
 const port = process.env.PORT || 5006
 
@@ -9,6 +14,8 @@ const app = express()
 app.get('/', (req, res) => {
   res.send('Rydr backend code!')
 })
+
+app.use('/api', ridesRouter);
 
 const server = app.listen(port, () => {
   console.log(`Listening on ${port}`)
